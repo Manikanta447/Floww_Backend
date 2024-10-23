@@ -190,10 +190,9 @@ Screenshots of the Postman API tests are provided in the /screenshots directory:
 
 1. Register User: Screenshots/register.png
 2. Login User: Screenshots/login.png
-3. Add Transactions: Screenshots/transactions.png
-4. 
-5. Add Transaction: 
-
-
-6. Get Transactions: 
+3. Add Transactions: Screenshots/Add_Transaction.png
+4. Get Transactions: Screenshots/transactions.png
+5. Update Transaction: Screenshots/updated_transaction.png
+6. Delete Transactions: Screenshots/delete_transaction.png
+7. Summary: Screenshots/summary.png
 
