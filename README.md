@@ -188,7 +188,7 @@ Postman Collection
 
 Screenshots of the Postman API tests are provided in the /screenshots directory:
 
-1. Register User: 
+1. Register User: https://github.com/Manikanta447/Floww_Backend/blob/46f13ac01ba42dfe6d45189ce29421bc2a04c363/Screenshots/register.png
 2. Login User: [Screenshots/login.png](https://github.com/Manikanta447/Floww_Backend/blob/c7ae83150c93194f95f12fae2dabb782a24f33bd/Screenshots/login.png)
 3. Add Transactions: [Screenshots/Add_Transaction.png](https://github.com/Manikanta447/Floww_Backend/blob/0cf171fdd1a7162ac8513a3e56cdddf5f2692675/Screenshots/Add_Transaction.png)
 4. Get Transactions: [Screenshots/register.png](https://github.com/Manikanta447/Floww_Backend/blob/3b997f0bc2efd078a028d7f44c3b031b75928fe0/Screenshots/transactions.png)
