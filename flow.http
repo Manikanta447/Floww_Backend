@@ -1,0 +1,63 @@
+POST http://localhost:3000/register
+Content-Type: application/json
+
+{
+    "username": "manikanta3",
+    "password": "manikanta20212"
+}
+###
+"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3Mjk2Nzg0ODR9.3VUfxmFZN-jOKMVD8zLuRyZU2szIvYRE1T7FZytrr-4"
+###
+
+POST http://localhost:3000/login
+Content-Type: application/json
+
+{
+    "username": "manikanta2",
+    "password": "manikanta20212"
+}
+###
+
+post http://localhost:3000/transactions
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzI5Njc4NzIwfQ.9xeyDtYaeLFfC57_aZiauLhNKsfkCal0sN_1AN9ztrQ
+
+{
+    "userId": "2",
+    "type": "income",
+    "category": "Salary",
+    "amount": 50000,
+    "date": "2022-02-01",
+    "description": "Salary Credited"
+}
+###
+
+GET http://localhost:3000/transactions
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzI5Njc4NzIwfQ.9xeyDtYaeLFfC57_aZiauLhNKsfkCal0sN_1AN9ztrQ
+###
+
+GET http://localhost:3000/transactions/5
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzI5Njc4NzIwfQ.9xeyDtYaeLFfC57_aZiauLhNKsfkCal0sN_1AN9ztrQ
+###
+
+PUT http://localhost:3000/transactions/5
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzI5Njc4NzIwfQ.9xeyDtYaeLFfC57_aZiauLhNKsfkCal0sN_1AN9ztrQ
+
+{
+    "type": "expense",
+    "category": "groceries",
+    "amount": 100,
+    "date": "2022-02-02",
+    "description": "Updated baked salmon with veggie"
+}
+###
+
+
+DELETE http://localhost:3000/transactions/7
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzI5Njc4NzIwfQ.9xeyDtYaeLFfC57_aZiauLhNKsfkCal0sN_1AN9ztrQ
+###
+
+
+GET http://localhost:3000/summary 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MiwiaWF0IjoxNzI5Njc4NzIwfQ.9xeyDtYaeLFfC57_aZiauLhNKsfkCal0sN_1AN9ztrQ
