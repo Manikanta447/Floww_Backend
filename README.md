@@ -188,16 +188,12 @@ Postman Collection
 
 Screenshots of the Postman API tests are provided in the /screenshots directory:
 
-1. Register User:
-  ![register](https://github.com/user-attachments/assets/1ac6c831-6d79-4311-a800-81d40d92d59e)
+1. Register User: Screenshots/register.png
+2. Login User: Screenshots/login.png
+3. Add Transactions: Screenshots/transactions.png
+4. 
+5. Add Transaction: 
 
 
-
-3. Login User: 
-
-
-4. Add Transaction: 
-
-
-5. Get Transactions: 
+6. Get Transactions: 
 
