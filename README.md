@@ -190,7 +190,7 @@ Screenshots of the Postman API tests are provided in the /screenshots directory:
 
 1. Register User: Screenshots/register.png
 2. Login User: Screenshots/login.png
-3. Add Transactions: Screenshots/Add_Transaction.png
+3. Add Transactions: [Screenshots/Add_Transaction.png](https://github.com/Manikanta447/Floww_Backend/blob/0cf171fdd1a7162ac8513a3e56cdddf5f2692675/Screenshots/Add_Transaction.png)
 4. Get Transactions: Screenshots/transactions.png
 5. Update Transaction: Screenshots/updated_transaction.png
 6. Delete Transactions: Screenshots/delete_transaction.png
